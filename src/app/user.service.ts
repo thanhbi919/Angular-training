@@ -8,7 +8,7 @@ export class UserService {
   public getData(): User[] {
     this.user.push(new User(1,'Nguyen Xuan Thanh',12));
     this.user.push(new User(2,'Vu Duc Tuyen',18));
-    this.user.push(new User(3,'Ngo Thuy Hang',22));
+    this.user.push(new User(3,'Nguyen Van Thanh',22));
     return this.user;
   }
 
